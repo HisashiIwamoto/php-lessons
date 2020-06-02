@@ -1,5 +1,4 @@
 <?php
-    $jan = array('goo','choki','par');
+    $jan = ['G'=>'goo','C'=>'choki','P'=>'par'];
 
-    echo $jan[rand(0,2)];
-?>
+    echo $jan[array_rand($jan,1)];
