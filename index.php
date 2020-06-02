@@ -1,6 +1,6 @@
 <?php
-    $hands = array('0:グー','1:チョキ','2:パー');
+    $hands = array('rock','Scissor','paper');
 
-    $hand = array_rand($hands);
+    $hand = $hands[rand(0,2)];
 
     echo $hand;
